@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <config>
     <!--excel文件总数-->
-    <file-num>1</file-num>
+    <file-num>2</file-num>
     <!--各个文件的配置详情-->
     <file>
         <!--文件路径-->
@@ -132,6 +132,166 @@
             <field>
                 <excel>AB</excel>
                 <db>tssfry_rddb_zxwy</db>
+            </field>
+            <field>
+                <excel>AC</excel>
+                <db>tssfry_communist</db>
+            </field>
+            <field>
+                <excel>AD</excel>
+                <db>jlseajzb_las</db>
+            </field>
+            <field>
+                <excel>AE</excel>
+                <db>jlseajzb_paqk_nnpajs</db>
+            </field>
+            <field>
+                <excel>AF</excel>
+                <db>jlseajzb_paqk_pnnajs</db>
+            </field>
+            <field>
+                <excel>AG</excel>
+                <db>jlseajzb_paqk_plnajs</db>
+            </field>
+            <field>
+                <excel>AH</excel>
+                <db>jlseajzb_paqk_pal</db>
+            </field>
+            <field>
+                <excel>AI</excel>
+                <db>jlseajzb_xjrs</db>
+            </field>
+        </fields>
+    </file>
+    <file>
+        <!--文件路径-->
+        <path>F:\重庆\扫黑界面\SH3.0\九类涉恶类案件.xls</path>
+        <!--对应的Sheet-->
+        <sheet>案件信息</sheet>
+        <!--文件对应数据链接-->
+        <jdbc host="localhost" port="3307" user="root" passwd="root" db="pymsql" table="nine_class_selaj">
+        </jdbc>
+        <!--数据起始/终止行，默认是0/最大行数。当参数是-1时，使用默认值。-->
+        <row start="2" end="2160">
+        </row>
+        <!--数据起始/终止行，默认是0/最大行数。当参数是-1时，使用默认值。-->
+        <col start="A" end="BN">
+        </col>
+        <!--excel表列与数据库表字段值映射-->
+        <fields>
+            <!--字段数目-->
+            <num>66</num>
+            <field>
+                <excel>A</excel>
+                <db>aj_code</db>
+            </field>
+            <field>
+                <excel>B</excel>
+                <db>aj_name</db>
+            </field>
+            <field>
+                <excel>C</excel>
+                <db>aj_class</db>
+            </field>
+            <field>
+                <excel>D</excel>
+                <db>aj_menu</db>
+            </field>
+            <field>
+                <excel>E</excel>
+                <db>aj_status</db>
+            </field>
+            <field>
+                <excel>F</excel>
+                <db>aj_status_time</db>
+            </field>
+            <field>
+                <excel>G</excel>
+                <db>aj_discover_time</db>
+            </field>
+            <field>
+                <excel>H</excel>
+                <db>aj_type</db>
+            </field>
+            <field>
+                <excel>I</excel>
+                <db>aj_kind</db>
+            </field>
+            <field>
+                <excel>J</excel>
+                <db>fa_place</db>
+            </field>
+            <field>
+                <excel>K</excel>
+                <db>aj_description</db>
+            </field>
+            <field>
+                <excel>L</excel>
+                <db>fa_time</db>
+            </field>
+            <field>
+                <excel>M</excel>
+                <db>fa_end_time</db>
+            </field>
+            <field>
+                <excel>N</excel>
+                <db>fa_time_range</db>
+            </field>
+            <field>
+                <excel>O</excel>
+                <db>fa_area</db>
+            </field>
+            <field>
+                <excel>P</excel>
+                <db>fa_address</db>
+            </field>
+            <field>
+                <excel>Q</excel>
+                <db>dyzars</db>
+            </field>
+            <field>
+                <excel>R</excel>
+                <db>lasj</db>
+            </field>
+            <field>
+                <excel>S</excel>
+                <db>bar_name</db>
+            </field>
+            <field>
+                <excel>T</excel>
+                <db>bar_sex</db>
+            </field>
+            <field>
+                <excel>U</excel>
+                <db>bar_age</db>
+            </field>
+            <field>
+                <excel>V</excel>
+                <db>bar_area</db>
+            </field>
+            <field>
+                <excel>W</excel>
+                <db>bar_telephone_number</db>
+            </field>
+            <field>
+                <excel>X</excel>
+                <db>bar_address</db>
+            </field>
+            <field>
+                <excel>Y</excel>
+                <db>jjbh</db>
+            </field>
+            <field>
+                <excel>Z</excel>
+                <db>jbdw</db>
+            </field>
+            <field>
+                <excel>AA</excel>
+                <db>bcab</db>
+            </field>
+            <field>
+                <excel>AB</excel>
+                <db>cbr</db>
             </field>
             <field>
                 <excel>AC</excel>
